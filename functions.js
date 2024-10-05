@@ -3,10 +3,11 @@ function hello(answer) {
 }
 
 function displayAdLib(name, flavor, action, animals, text) {
-    console.log(`If ${name} could have a pet ${animals[0]} that
+
+    console.log(`\nIf ${name} could have a pet ${animals[0]} that
          loved ${flavor} ice cream, what would they do together?
          I bet they'd go ${action} through the forest with a
-         ${animals[1]}. In the forest they will met a ${text}.`)
+         ${animals[1]}. In the forest they are attacked by ${text}.`)
 }
 
 

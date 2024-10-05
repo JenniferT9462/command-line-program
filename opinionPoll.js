@@ -75,6 +75,8 @@ const checkboxAnswer = await checkbox({
     ]
 });
 console.log(`You choose ${checkboxAnswer}`)
-const inputAnswer = await input({ message: ' If you could be any animal, what would you be and why?'});
+const inputAnswer = await input({ message: 'Which movie character would you want to have an epic battle with? Briefly, describe the battle.'});
+
+
 displayAdLib(answer, selectAnswer1, selectAnswer2, checkboxAnswer, inputAnswer)
 
