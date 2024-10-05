@@ -20,4 +20,6 @@ This is a command-line opinion poll that asks you a few questions and then displ
 
             node opinionPoll.js
 
+## Example Output:
 
+![survey screenshot](surveyScreenshot.png)
